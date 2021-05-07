@@ -102,11 +102,11 @@ bool clipmap::get_tracking(void) {
 }
 
 void clipmap::_init(void) {
-    center_mesh = ResourceLoader::load("center_quad.obj", "Mesh");
+    center_mesh = ResourceLoader::load("mesh/center_quad.obj", "Mesh");
     center_mesh_instance = memnew(MeshInstance);
     center_mesh_instance->set_mesh(center_mesh);
 
-    ring_multimesh = ResourceLoader::load("ring_base2_quad2.obj", "MultiMesh");
+    ring_multimesh = ResourceLoader::load("mesh/ring_base2_quad2.obj", "MultiMesh");
     ring_multimesh_instance = memnew(MultiMeshInstance);
     ring_multimesh_instance->set_multimesh(ring_multimesh);
 
