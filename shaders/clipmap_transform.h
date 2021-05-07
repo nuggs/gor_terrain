@@ -13,7 +13,7 @@
 #include <scene/resources/visual_shader.h>
 
 class vs_clipmap_transform : public VisualShaderNodeCustom {
-    GDCLASS(vs_clipmap_transform, VisualShaderNodeCustom)
+    GDCLASS(vs_clipmap_transform, VisualShaderNodeCustom);
 
     protected:
         void _init(void);

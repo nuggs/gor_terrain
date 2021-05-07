@@ -13,7 +13,7 @@
 #include <scene/resources/visual_shader.h>
 
 class vs_heightmap_calc : public VisualShaderNodeCustom {
-    GDCLASS(vs_heightmap_calc, VisualShaderNodeCustom)
+    GDCLASS(vs_heightmap_calc, VisualShaderNodeCustom);
 
     protected:
         void _init(void);

@@ -13,7 +13,7 @@
 #include <scene/resources/visual_shader.h>
 
 class vs_set_uv3d : public VisualShaderNodeCustom {
-    GDCLASS(vs_set_uv3d, VisualShaderNodeCustom)
+    GDCLASS(vs_set_uv3d, VisualShaderNodeCustom);
 
     protected:
         void _init(void);

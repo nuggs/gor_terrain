@@ -13,7 +13,7 @@
 #include <scene/resources/visual_shader.h>
 
 class vs_clipmap_vertex : public VisualShaderNodeCustom {
-    GDCLASS(vs_clipmap_vertex, VisualShaderNodeCustom)
+    GDCLASS(vs_clipmap_vertex, VisualShaderNodeCustom);
 
     protected:
         void _init(void);

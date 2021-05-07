@@ -18,7 +18,7 @@
 #include "shaders/tangent_space.h"
 
 class clipmap_visual_shader : public VisualShader {
-    GDCLASS(clipmap_visual_shader, VisualShader)
+    GDCLASS(clipmap_visual_shader, VisualShader);
 
     public:
         vs_clipmap_vertex *vertex_node;

@@ -13,7 +13,7 @@
 #include <scene/resources/visual_shader.h>
 
 class vs_tangent_space : public VisualShaderNodeCustom {
-    GDCLASS(vs_tangent_space, VisualShaderNodeCustom)
+    GDCLASS(vs_tangent_space, VisualShaderNodeCustom);
 
     protected:
         void _init(void);

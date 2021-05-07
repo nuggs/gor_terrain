@@ -6,17 +6,6 @@
  * Based on Cartographer by Adrien de Pierres <adrien@awkwardpolygons.com>
  */
 
-#include <scene/3d/spatial.h>
-#include <scene/3d/camera.h>
-#include <core/io/resource_loader.h>
-#include <scene/resources/material.h>
-#include <scene/resources/mesh.h>
-#include <scene/3d/mesh_instance.h>
-#include <scene/3d/multimesh_instance.h>
-#include <core/math/vector2.h>
-#include <core/math/vector3.h>
-#include <scene/main/viewport.h>
-
 #include "clipmap.h"
 
 void clipmap::set_layer_mask(int layer_mask) {

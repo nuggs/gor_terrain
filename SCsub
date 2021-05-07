@@ -4,6 +4,7 @@ sources = [
     "register_types.cpp",
     "terrain.cpp",
     "clipmap.cpp",
+    "mega_terrain.cpp",
     "clipmap_visualshader.cpp",
     "shaders/clipmap_transform.cpp",
     "shaders/clipmap_vertex.cpp",

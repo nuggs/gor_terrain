@@ -9,8 +9,19 @@
 #ifndef CLIPMAP_H
 #define CLIPMAP_H
 
+#include <scene/3d/spatial.h>
+#include <scene/3d/camera.h>
+#include <core/io/resource_loader.h>
+#include <scene/resources/material.h>
+#include <scene/resources/mesh.h>
+#include <scene/3d/mesh_instance.h>
+#include <scene/3d/multimesh_instance.h>
+#include <core/math/vector2.h>
+#include <core/math/vector3.h>
+#include <scene/main/viewport.h>
+
 class clipmap : public Spatial {
-    GDCLASS(clipmap, Spatial)
+    GDCLASS(clipmap, Spatial);
 
     public:
         int stride;
