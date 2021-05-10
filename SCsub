@@ -5,6 +5,7 @@ sources = [
     "terrain.cpp",
     "clipmap.cpp",
     "mega_terrain.cpp",
+    "multi_texture.cpp",
     "clipmap_visualshader.cpp",
     "shaders/clipmap_transform.cpp",
     "shaders/clipmap_vertex.cpp",
