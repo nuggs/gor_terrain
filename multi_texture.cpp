@@ -34,6 +34,25 @@ const Dictionary multi_texture::create_data(int width, int height, int depth, in
     return data;
 }
 
+const Dictionary multi_texture::get_data(void) {
+    Dictionary data = Dictionary();
+    int depth = get_depth();
+
+    data["width"] = get_width();
+    data["height"] = get_height();
+    data["depth"] = depth;
+    data["format"] = get_format();
+    data["flags"] = get_flags();
+
+    Array layers;
+    for (int i = 0; i < depth; i++) {
+        layers.push_back(get_layer_data(i));
+    }
+    data["layers"] = layers;
+
+    return data;
+}
+
 void multi_texture::set_layer(Ref<ImageTexture> src, int idx, int chn_src, int chn_dst) {
     Ref<Image> img_src = Ref<Image>();
     Ref<Image> dst = Ref<Image>();

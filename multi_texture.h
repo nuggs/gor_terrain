@@ -16,6 +16,8 @@ class multi_texture : public TextureArray {
         void set_layer(Ref<ImageTexture> src, int idx, int chn_src, int chn_dst);
         void set_layer(Ref<Image> src, int idx, int chn_src, int chn_dst);
         Ref<Image> get_layer(int idx);
+        void set_data(const Dictionary &data) { _set_data(data); };
+        const Dictionary get_data(void);
 
     protected:
         void _set_data(const Dictionary &data);

@@ -3,9 +3,11 @@ Import('env')
 sources = [
     "register_types.cpp",
     "terrain.cpp",
+    "texture_array_builder.cpp",
     "clipmap.cpp",
     "mega_terrain.cpp",
     "multi_texture.cpp",
+    "multi_texture_saver.cpp",
     "clipmap_visualshader.cpp",
     "shaders/clipmap_transform.cpp",
     "shaders/clipmap_vertex.cpp",
